@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+h1{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    background-color: darkgoldenrod; 
+    color: black;   
+}
+
+.Banner1{
+    background-image: url(/Assets/design1_image1.jpg);
+    width: 100%;
+    height: 300px;
+  }
+  .Banner2{
+      background-image: url(/Assets/design1_image1.jpg);
+    width: 100%;
+    height: 300px;
+  }
+  .Banner3{
+      background-image: url(/Assets/design1_image2.jpg);
+    width: 100%;
+    height: 300px;
+  }
+  nav{
+    align-items: center;
+    padding: 40px;
+  }
+  div>h2{
+    text-align: center;
+  align-items: center;
+  }
+  #Events{
+    position: relative;
+  }
+  #Logo {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    border-color: 1px black;
+  }

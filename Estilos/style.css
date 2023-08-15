@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+header{
+  width: 700px;
+  height: 300px;   
+}
+
+.Banner1 { 
+  background-image: url(/Assets/design1_image1.jpg);
+  width: 100%;
+  height: 300px;
+}
+.Banner2 {
+  background-image: url(/Assets/design1_image1.jpg);
+  width: 100%;
+  height: 300px;
+}
+.Banner3 {
+  background-image: url(/Assets/design1_image2.jpg);
+  width: 100%;
+  height: 300px;
+}
+div>H2 {
+  border-color: 3px black;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  align-items: right;
+}
+#Events{
+  position: relative;
+}
+#Logo {
+   
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  border-color: 1px black;
+}
+
+nav{
+  margin-left: 30px;
+  padding: 50px;
+}
+a{
+  display: inline; 
+  padding: 40px;
+}
+
+main{
+  display: inline-block;
+  margin-left: 200px;
+  justify-content: center;
+  padding-right: 100px; 
+}
+article{
+  
+  margin-left: 50px;
+  position: relative ;
+}
