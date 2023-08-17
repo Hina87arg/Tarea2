@@ -5,25 +5,38 @@
 }
 h1{
     position: absolute;
-    
     top: 0;
+    right: 0px;
     padding: 10px;
     background-color: darkgoldenrod; 
-    color: black;   
+    color: red; 
+    }
+#bannersub{
+    position: relative;
 }
-
-.Banner1{
+.banner1{
     background-image: url(/Assets/design1_image1.jpg);
     width: 100%;
     height: 300px;
   }
-  .Banner2{
-      background-image: url(/Assets/design1_image1.jpg);
+  
+.banner2{
+    background-image: url(/Assets/design1_image1.jpg);
     width: 100%;
     height: 300px;
   }
-  .Banner3{
-      background-image: url(/Assets/design1_image2.jpg);
+.banner3{
+    background-image: url(/Assets/design1_image2.jpg);
+    width: 100%;
+    height: 300px;
+  }
+.banner4{
+    background-image: url(/Assets/design1_image2.jpg);
+    width: 100%;
+    height: 300px;
+  }
+  .banner5{
+    background-image: url(/Assets/design1_image2.jpg);
     width: 100%;
     height: 300px;
   }
@@ -31,35 +44,84 @@ h1{
     margin-right: 20px;
     padding: 20px;
     right: 100px;
-    border-color: 3px black;
+    align-items: center;
     background-color: darkgoldenrod;
-    border-radius: 5px;    
-  }
-
+    }
   a{
-    
     padding: 40px;
-  }
-
+    color: red;
+    }
   div>h2{
     text-align: center;
-  }
-  h2{
     background-color: darkgoldenrod;
   }
-  #Events{
-    position: relative;
+  div>h2{
+    color: red;
   }
-  #Logo {
+  
+  #logo {
     position: absolute;
-    top: 150px;
+    top: -150px;
     right: 0px;
     border-color: 1px black;
   }
-  #Sportsrules{
-    position: relative;
+  #sportsrules{
+    margin-left: 40px;
+    padding: 10px;
   }
-  #Sportsmanship{
-    position: absolute;
+  #sportsmanship{
+    margin-left: 40px;
+    padding: 10px;
+  }
+  #ihf{
+    margin-left: 30px;
+    padding: 10px;
+  }
+  #fields{
+    margin-left: 60px;
+    padding: 10px;
+  }
+  .contenido4{
+    margin-left: 60px;
+    padding: 10px;
+  }
+  #allplay{
+    margin-left: 40px;
+    padding: 10px;
+  }
+  #mission{
+    margin-left: 30px;
+    padding: 10px;  
+  }
+  #email{
+    margin-left: 30px;
+    padding: 10px;
+  }
+  #upcoming{
+    margin-left: 30px;
+    padding: 10px;
+  }
+  #allgames{
     margin-left: 20px;
+    padding: 10px;
   }
+  #facility{
+    margin-left: 20px;
+    padding: 10px;
+  }
+#tableschedule th, #tableschedule td{
+  padding: 1em;
+  border: 1px solid;  
+}
+#tableschedule th{
+  background-color: coral;
+  color: rgb(49, 40, 58);
+  font-weight: bold;
+}
+#tableschedule{
+  margin-left: 20px;
+  padding: 10px;
+}
+
+
+  
