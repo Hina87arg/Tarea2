@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- estilo 3 -->
+    <link rel="stylesheet" href="/Estilos/style3.css">
+    <!-- icono -->
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="/Assets/LogoMightyducks-01.png" />
+</head>
+<body>
+    <!--marco superior  -->
+    <header class="banner6">
+        <div>
+            <H1>Mighty Ducks Hockey League </H1>            
+        </div>
+    </header>
+    <section id="bannersub">
+        <div>
+            <H2>Registration Form</H2>
+            <img src="/Assets/LogoMightyducks-01.png" alt="Logo" id="logo" width="150">            
+        </div>
+    </section>
+    <nav>
+        <a href="Index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Gameschedule.html">Game Schedule</a>
+        <a href="Rules.html">Rules</a>
+        <a href="#">Form</a>                            
+    </nav>
+    <form action="Show_data.html">
+        <fieldset id="box1">
+            <legend><b>Registration Form</b></legend>
+            
+            <label for="name">Player's First Name:</label>
+            <input type="text" name="name" id="name">
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname">
+
+            <label for="address">Street Address:</label>
+            <input type="text" name="adress" id="adress">
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" name="zipcode" id="zipcode">
+
+            <label for="birthdate">Birth Date (mm/dd/yyyy):</label>
+            <input type="text" name="birthdate" id="birthdate">
+            
+            <label for="gender">Gender:</label>
+            <label for="female">Female</label>
+            <input type="checkbox" name="female" id="male">
+            <label for="male">Male</label>
+            <input type="checkbox" name="male" id="male">
+
+            <label for="grade">Grade:</label>
+            <input type="checkbox" name="preschool" id="preschool">
+            <label for="preschool">Pre-School</label>
+            <input type="checkbox" name="first" id="first">
+            <label for="first">1st</label>
+            <input type="checkbox" name="second" id="second">
+            <label for="second">2nd</label>
+            <input type="checkbox" name="third" id="third">
+            <label for="third">3rd</label>
+            <input type="checkbox" name="fourth" id="fourth">
+            <label for="first">4th</label>
+            <input type="checkbox" name="fifth" id="fifth">
+            <label for="first">5th</label>
+        </fieldset> 
+        <fieldset id="box2">
+            <label for="elementaryschool"><b>Which elementary school do you live near?</b></label>
+            <label for="closestschool"><b>Closest School:</b></label>
+            <select name="closestschool" id="closestschool">
+                 <option value="ajkatzenmaier">AJ Katzenmaier</option>
+                 <option value="marjoriephart">Marjorie P Hart</option>
+                 <option value="greenbay">Greenbay</option>
+                 <option value="northelementary">North Elementary</option>
+                 <option value="howardayeager">Howard A Yeager</option>
+                 <option value="southelementary">South Elementary</option>
+             </select>
+        </fieldset> 
+        <fieldset id="box3">
+            <label for="size"><b>Uniform Size</b></label>
+            <input type="checkbox" name="size" id="youthsmall" value="Youth Small">
+            <label for="youthsmall">Youth Small</label>
+            <input type="checkbox" name="size" id="medium" value="Medium">
+            <label for="medium">Medium</label>
+            <input type="checkbox" name="size" id="youthmedium" value="Youth Medium">
+            <label for="youthmedium">"Youth Medium</label>
+            <input type="checkbox" name="size" id="large" value="Large">
+            <label for="large">Large</label>
+            <input type="checkbox" name="size" id="youthlarge" value="Youth Large">
+            <label for="youthlarge">Youth Large</label>
+            <input type="checkbox" name="size" id="extralarge" value="Extra-Large">
+            <label for="extralarge">Extra-Large</label>
+            <input type="checkbox" name="size" id="small" value="Small">
+            <label for="small">Small</label>
+        </fieldset>
+        <fieldset id="box4">
+            <label for="permission"><b>Permission to Play</b></label>
+            <label for="">l, the parent or guardian of the minor registrant, agree that the registrant and | will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the “League” accepting the registrant for its
+                hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL,
+                their employees and associated personnel and volunteers,including the facilities used for
+                practices and games, against any claim by or on behalf of the registrant as a result of the
+                registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.
+                
+                By signing below, | hereby agree and authorize the above. In addition, by signing below, also acknowledge that | have read the cancellation policy and agree to its terms.</label>
+                <label for="signature">Parent/GuardianSignature</label>
+                <input type="text" name="signature" id="signature">
+                <label for="date">Date</label>
+                <input type="text" name="date" id="date">
+                <input type="submit" value="Enviar">   
+        </fieldset> 
+   
+    </form>
+</body>
+</html>

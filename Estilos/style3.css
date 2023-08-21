@@ -4,51 +4,62 @@
   box-sizing:border-box;
 }
 h1{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    padding: 10px;
-    background-color: darkgoldenrod; 
-    color: red; 
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content:
+  space-around;
+  align-items: right;
+  background-color: darkgoldenrod; 
+  color: red; 
+  width:100%;
+  padding: 10px;    
+  }
 #bannersub{
-    position: relative;
+    padding: 10px;
 }
 .banner1{
     background-image: url(/Assets/design1_image1.jpg);
     width: 100%;
-    height: 300px;
+    height: 400px;
   }
   
 .banner2{
     background-image: url(/Assets/design1_image1.jpg);
     width: 100%;
-    height: 300px;
+    height: 400px;
   }
 .banner3{
     background-image: url(/Assets/design1_image2.jpg);
     width: 100%;
-    height: 300px;
+    height: 400px;
   }
 .banner4{
     background-image: url(/Assets/design1_image2.jpg);
     width: 100%;
-    height: 300px;
+    height: 400px;
   }
   .banner5{
     background-image: url(/Assets/design1_image2.jpg);
     width: 100%;
-    height: 300px;
+    height: 400px;
+  }
+  .banner6{
+    background-image: url(/Assets/design1_image2.jpg);
+    width: 100%;
+    height: 400px;
   }
   nav{
-    margin-right: 20px;
-    padding: 20px;
-    right: 100px;
-    align-items: center;
-    background-color: darkgoldenrod;
-    }
+    display: flex;
+  flex-direction: row;
+  justify-content:
+  space-around;
+  align-items: right;
+  background-color: darkgoldenrod; 
+  color: red; 
+  width:100%;
+  }
   a{
-    padding: 40px;
+    padding: 30px;
     color: red;
     }
   div>h2{
@@ -122,6 +133,26 @@ h1{
   margin-left: 20px;
   padding: 10px;
 }
-
+#box1{
+  margin-left: 200px;
+    padding: 10px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+#box2{
+  margin-left: 200px;
+  padding: 10px;
+  margin-right: 200px;
+}
+#box3{
+  margin-left: 200px;
+  padding: 10px;
+  margin-right: 200px;
+}
+#box4{
+  margin-left: 200px;
+  padding: 10px;
+  margin-right: 200px;
+}
 
   
